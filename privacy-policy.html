@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Lova Flow</title>
+  <style>
+    :root {
+      --bg: #0A0A1A;
+      --surface: #12122A;
+      --border: #1E1E3A;
+      --text: #E8E8F0;
+      --text-secondary: #9898B0;
+      --accent: #A78BFA;
+      --accent2: #22D3EE;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 20px;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 0;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .updated {
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin-top: 36px;
+      margin-bottom: 12px;
+    }
+    p, li {
+      color: var(--text);
+      margin-bottom: 12px;
+      font-size: 1rem;
+    }
+    ul {
+      padding-left: 24px;
+      margin-bottom: 16px;
+    }
+    li { margin-bottom: 6px; }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      margin: 16px 0;
+    }
+    .card h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--accent2);
+      margin-bottom: 8px;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 6px;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+    .badge-optional {
+      background: rgba(34, 211, 238, 0.15);
+      color: var(--accent2);
+    }
+    .badge-default {
+      background: rgba(167, 139, 250, 0.15);
+      color: var(--accent);
+    }
+    a {
+      color: var(--accent2);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      text-align: left;
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--border);
+    }
+    th {
+      color: var(--accent);
+      font-weight: 600;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    td { color: var(--text); }
+    .footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--text-secondary);
+      font-size: 0.85rem;
+    }
+    @media (max-width: 600px) {
+      body { padding: 16px; }
+      h1 { font-size: 1.6rem; }
+      .container { padding: 20px 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: March 27, 2026</p>
+
+    <p>Lova Flow ("the App") is a personal finance tracker developed by Marko Obenic. This policy explains what data the App collects, how it is used, and your rights regarding that data.</p>
+
+    <h2>1. Data Stored on Your Device</h2>
+    <p>Lova Flow is an <strong>offline-first</strong> app. All of your financial data is stored locally on your device in a SQLite database and is never sent to our servers (we do not operate any servers). This includes:</p>
+    <ul>
+      <li>Accounts and balances</li>
+      <li>Transactions</li>
+      <li>Categories</li>
+      <li>Budgets and savings goals</li>
+      <li>Planned/recurring payments</li>
+      <li>App settings and preferences</li>
+    </ul>
+    <p>We do not have access to this data. You can delete individual records (transactions, accounts, etc.) within the App at any time. If you uninstall the App, all locally stored data is permanently deleted.</p>
+
+    <h2>2. Data Shared with Third Parties</h2>
+    <p>The App communicates with the following third-party services. No data is shared without a functional reason, and there is no advertising or user profiling.</p>
+
+    <div class="card">
+      <h3>Crash Reporting — Sentry <span class="badge badge-default">Active by default</span></h3>
+      <p>We use <a href="https://sentry.io/privacy/" target="_blank" rel="noopener">Sentry</a> to detect and fix crashes. Data is sent to Sentry's EU servers (Germany). Sentry may receive:</p>
+      <ul>
+        <li><strong>Device information</strong> — device model, operating system, app version</li>
+        <li><strong>Error details</strong> — stack traces, console logs, and breadcrumbs when a crash or error occurs</li>
+        <li><strong>IP address and device identifiers</strong> — collected by Sentry as part of the connection; IP address is used for approximate geolocation</li>
+        <li><strong>Session replay</strong> — to help diagnose issues, a visual replay of your session may be recorded. Approximately 10% of normal sessions and 100% of sessions where an error occurs are recorded. These replays capture what was visible on screen, which may include financial information displayed in the App</li>
+      </ul>
+      <p>Sentry data is used solely for debugging and improving app stability. Sentry's privacy policy applies to data they process: <a href="https://sentry.io/privacy/" target="_blank" rel="noopener">sentry.io/privacy</a>.</p>
+    </div>
+
+    <div class="card">
+      <h3>AI Features — OpenAI <span class="badge badge-optional">Optional</span></h3>
+      <p>If you enter your own OpenAI API key in Settings, you can use AI-powered features. When you do, some data is sent directly from your device to <a href="https://openai.com/policies/privacy-policy/" target="_blank" rel="noopener">OpenAI's API</a>. You control this entirely — no data is sent to OpenAI unless you provide an API key and actively use an AI feature.</p>
+      <p><strong>What is sent to OpenAI and when:</strong></p>
+      <table>
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Data Sent</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Quick Log</td>
+            <td>Your typed transaction description (e.g., "coffee 300din"), your category names, and currency preferences</td>
+          </tr>
+          <tr>
+            <td>Scan QR Code</td>
+            <td>The raw data from a scanned receipt QR code (may include merchant name, amounts, dates, tax details), your category names, and currency preferences</td>
+          </tr>
+          <tr>
+            <td>Import File</td>
+            <td>The contents of the file you import (bank statement PDF, CSV, image, or spreadsheet — which may contain full transaction history, account details, and merchant information), your category names, and currency preferences</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>Your OpenAI API key is stored locally on your device. It is never sent to us. OpenAI's data usage policies apply to data processed through their API: <a href="https://openai.com/policies/privacy-policy/" target="_blank" rel="noopener">openai.com/policies/privacy-policy</a>.</p>
+    </div>
+
+    <div class="card">
+      <h3>Exchange Rates <span class="badge badge-default">Automatic</span></h3>
+      <p>When you use multiple currencies, the App fetches exchange rates from <a href="https://www.exchangerate-api.com/" target="_blank" rel="noopener">ExchangeRate-API</a>. Only the currency code (e.g., "EUR") is sent. No personal or financial data is transmitted.</p>
+    </div>
+
+    <h2>3. Data We Do Not Collect</h2>
+    <ul>
+      <li>We do not require user accounts or authentication</li>
+      <li>We do not collect email addresses, names, or phone numbers</li>
+      <li>We do not use advertising SDKs or trackers</li>
+      <li>We do not use analytics beyond Sentry crash reporting</li>
+      <li>We do not sell, rent, or share data with any party for marketing purposes</li>
+    </ul>
+
+    <h2>4. Data Retention</h2>
+    <ul>
+      <li><strong>On-device data</strong> — retained until you delete it within the App or uninstall the App</li>
+      <li><strong>Sentry data</strong> — retained according to <a href="https://sentry.io/privacy/" target="_blank" rel="noopener">Sentry's data retention policy</a> (typically 90 days)</li>
+      <li><strong>OpenAI data</strong> — retained according to <a href="https://openai.com/policies/privacy-policy/" target="_blank" rel="noopener">OpenAI's API data usage policy</a>. As of this writing, OpenAI does not use API data for training by default</li>
+    </ul>
+
+    <h2>5. Your Rights (GDPR &amp; Global)</h2>
+    <p>Since all primary data is stored on your device, you already have full control over it. You can view, modify, or delete any data at any time within the App.</p>
+    <p>If you are in the European Economic Area (EEA), you also have the right to:</p>
+    <ul>
+      <li><strong>Access</strong> — request information about data processed by third-party services on our behalf</li>
+      <li><strong>Erasure</strong> — request deletion of any data held by Sentry related to your device</li>
+      <li><strong>Restriction</strong> — request that we restrict processing of your data</li>
+      <li><strong>Portability</strong> — your on-device data can be exported as files directly from the App</li>
+      <li><strong>Object</strong> — object to processing of your data for specific purposes</li>
+      <li><strong>Complaint</strong> — lodge a complaint with a data protection supervisory authority. For users in Serbia, this is the Commissioner for Information of Public Importance and Personal Data Protection (<a href="https://www.poverenik.rs" target="_blank" rel="noopener">poverenik.rs</a>). For users in other EEA countries, contact your local Data Protection Authority.</li>
+    </ul>
+    <p>For users in Serbia, your rights under the Law on Personal Data Protection (<em>Zakon o za&scaron;titi podataka o li&ccaron;nosti</em>, "ZZPL") are equivalent to the rights listed above.</p>
+    <p>To exercise any of these rights, contact us at the address below. We will respond to your request within 30 days.</p>
+
+    <h2>6. Legal Basis for Processing (GDPR)</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Processing Activity</th>
+          <th>Legal Basis</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Crash reporting (Sentry)</td>
+          <td>Legitimate interest — maintaining app stability and fixing bugs</td>
+        </tr>
+        <tr>
+          <td>AI features (OpenAI)</td>
+          <td>Consent — you opt in by providing your API key and using the feature</td>
+        </tr>
+        <tr>
+          <td>Exchange rates</td>
+          <td>Legitimate interest — providing core app functionality</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>7. International Data Transfers</h2>
+    <p>When you use the App, some data may be transferred outside of Serbia:</p>
+    <ul>
+      <li><strong>Sentry</strong> — data is processed on EU servers in Germany, which provides an adequate level of data protection</li>
+      <li><strong>OpenAI</strong> (optional) — if you use AI features, data is sent to OpenAI servers in the United States. This transfer is based on your explicit consent (by voluntarily providing your API key and using the feature) and OpenAI's data processing terms</li>
+      <li><strong>ExchangeRate-API</strong> — only currency codes are transmitted; no personal data is transferred</li>
+    </ul>
+
+    <h2>8. Children's Privacy</h2>
+    <p>The App is not directed at children under 16. We do not knowingly collect personal data from children. The App does not require age verification or account creation. If you believe a child under 16 is using the App and you have concerns about the diagnostic data collected by Sentry, please contact us and we will take steps to delete that data.</p>
+
+    <h2>9. Security</h2>
+    <p>Your financial data is stored locally on your device and protected by your device's built-in security (passcode, biometrics, encryption). Network communications with third-party services use HTTPS encryption. We do not operate servers that store your data.</p>
+
+    <h2>10. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated "Last updated" date. Continued use of the App after changes constitutes acceptance of the revised policy.</p>
+
+    <h2>11. Contact</h2>
+    <p>If you have questions about this Privacy Policy or want to exercise your data rights, contact:</p>
+    <p>
+      Marko Obenic<br>
+      Serbia<br>
+      Email: <a href="mailto:obrenicmarko3@gmail.com">obrenicmarko3@gmail.com</a>
+    </p>
+
+    <div class="footer">
+      <p>&copy; 2026 Lova Flow. All rights reserved. | <a href="terms-of-service.html">Terms of Service</a></p>
+    </div>
+  </div>
+</body>
+</html>

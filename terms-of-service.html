@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms of Service — Lova Flow</title>
+  <style>
+    :root {
+      --bg: #0A0A1A;
+      --surface: #12122A;
+      --border: #1E1E3A;
+      --text: #E8E8F0;
+      --text-secondary: #9898B0;
+      --accent: #A78BFA;
+      --accent2: #22D3EE;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 20px;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 0;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .updated {
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin-top: 36px;
+      margin-bottom: 12px;
+    }
+    p, li {
+      color: var(--text);
+      margin-bottom: 12px;
+      font-size: 1rem;
+    }
+    ul, ol {
+      padding-left: 24px;
+      margin-bottom: 16px;
+    }
+    li { margin-bottom: 6px; }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      margin: 16px 0;
+    }
+    a {
+      color: var(--accent2);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    strong { color: var(--text); }
+    .footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--text-secondary);
+      font-size: 0.85rem;
+    }
+    @media (max-width: 600px) {
+      body { padding: 16px; }
+      h1 { font-size: 1.6rem; }
+      .container { padding: 20px 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Terms of Service</h1>
+    <p class="updated">Last updated: March 27, 2026</p>
+
+    <p>These Terms of Service ("Terms") govern your use of the Lova Flow mobile application ("the App"), developed by Marko Obenic. By installing or using the App, you agree to these Terms.</p>
+
+    <h2>1. What Lova Flow Is</h2>
+    <p>Lova Flow is a personal finance tracking app that helps you manage your accounts, transactions, budgets, and savings goals. It is a <strong>personal tool</strong> — not a financial institution, bank, or licensed financial advisor. The App is provided free of charge. No subscription or payment is required.</p>
+
+    <h2>2. No Financial Advice</h2>
+    <div class="card">
+      <p>The App is a record-keeping and budgeting tool only. It does <strong>not</strong> provide financial, investment, tax, or legal advice. Any information displayed in the App (including AI-generated summaries, categorizations, or insights) is for organizational purposes only. You are solely responsible for your financial decisions.</p>
+    </div>
+
+    <h2>3. Your Data, Your Responsibility</h2>
+    <p>All financial data you enter is stored locally on your device and cannot be recovered if lost. We do not operate servers that store your financial data. However, our crash reporting service (Sentry) may capture screen recordings, device information, and IP addresses to help diagnose errors — see our <a href="privacy-policy.html">Privacy Policy</a> for details.</p>
+    <ul>
+      <li><strong>Backups</strong> — you are responsible for backing up your data. If you lose your device, reset it, or uninstall the App, your data will be permanently lost unless you have exported it.</li>
+      <li><strong>Accuracy</strong> — you are responsible for the accuracy of the data you enter. The App reflects what you put into it.</li>
+    </ul>
+
+    <h2>4. AI Features</h2>
+    <p>The App offers optional AI-powered features (Quick Log, QR code scanning, file import) that use the OpenAI API. To use these features, you must provide your own OpenAI API key.</p>
+    <ul>
+      <li><strong>Your API key</strong> — you are responsible for managing and securing your OpenAI API key and for any costs incurred through its use.</li>
+      <li><strong>Data sent to OpenAI</strong> — when you use AI features, data from your device (transaction descriptions, receipt data, or bank statement contents) is sent directly to OpenAI. This is described in detail in our <a href="privacy-policy.html">Privacy Policy</a>.</li>
+      <li><strong>AI accuracy</strong> — AI-generated categorizations and transaction parsing are automated and may contain errors. Always review AI-processed transactions before relying on them.</li>
+      <li><strong>OpenAI's terms</strong> — your use of OpenAI's API is subject to <a href="https://openai.com/policies/terms-of-use/" target="_blank" rel="noopener">OpenAI's Terms of Use</a>.</li>
+    </ul>
+
+    <h2>5. Acceptable Use</h2>
+    <p>You agree to use the App for lawful personal finance tracking only. You may not:</p>
+    <ul>
+      <li>Reverse engineer, decompile, or disassemble the App, except to the extent expressly permitted by applicable law</li>
+      <li>Use the App to process data on behalf of third parties commercially</li>
+      <li>Attempt to circumvent any security features of the App</li>
+      <li>Redistribute or resell the App</li>
+    </ul>
+
+    <h2>6. Third-Party Services</h2>
+    <p>The App integrates with the following third-party services. Your use of these services is subject to their respective terms:</p>
+    <ul>
+      <li><strong>OpenAI</strong> — for AI features (<a href="https://openai.com/policies/terms-of-use/" target="_blank" rel="noopener">Terms</a>)</li>
+      <li><strong>Sentry</strong> — for crash reporting (<a href="https://sentry.io/terms/" target="_blank" rel="noopener">Terms</a>)</li>
+      <li><strong>ExchangeRate-API</strong> — for currency exchange rates (<a href="https://www.exchangerate-api.com/terms" target="_blank" rel="noopener">Terms</a>)</li>
+    </ul>
+    <p>We are not responsible for the availability, accuracy, or practices of third-party services.</p>
+
+    <h2>7. Availability &amp; Updates</h2>
+    <p>We aim to keep the App functional and up to date, but we do not guarantee uninterrupted availability. We may:</p>
+    <ul>
+      <li>Release updates that change functionality</li>
+      <li>Discontinue the App or specific features at any time</li>
+      <li>Require minimum OS versions for continued compatibility</li>
+    </ul>
+
+    <h2>8. Limitation of Liability</h2>
+    <div class="card">
+      <p>To the maximum extent permitted by applicable law, Lova Flow and its developer are not liable for:</p>
+      <ul>
+        <li>Loss of data stored on your device</li>
+        <li>Inaccurate AI-generated transaction data or categorizations</li>
+        <li>Financial decisions made based on information displayed in the App</li>
+        <li>Costs incurred through your use of third-party API keys</li>
+        <li>Any indirect, incidental, or consequential damages arising from use of the App</li>
+      </ul>
+      <p>The App is provided <strong>"as is"</strong> without warranties of any kind, express or implied, to the extent permitted by law.</p>
+      <p>Nothing in these Terms excludes or limits liability for (a) death or personal injury caused by negligence, (b) fraud or fraudulent misrepresentation, or (c) any liability that cannot be excluded or limited under applicable law, including mandatory consumer protection laws in the Republic of Serbia or the European Union.</p>
+    </div>
+
+    <h2>9. Age Requirements</h2>
+    <p>You must be at least 16 years old to use the App (or the minimum age required in your jurisdiction, which is 15 in Serbia). If you are under 18, you must have your parent or guardian's permission to use the App.</p>
+
+    <h2>10. Intellectual Property</h2>
+    <p>The App, its design, code, and branding are the property of Marko Obenic. These Terms do not grant you any rights to use the Lova Flow name, logo, or branding beyond normal use of the App.</p>
+
+    <h2>11. App Store Terms</h2>
+
+    <p><strong>Apple App Store.</strong> These Terms are between you and Marko Obenic, not Apple Inc. ("Apple"). Apple is not responsible for the App or its content. Apple has no obligation to provide maintenance or support for the App. In the event the App fails to conform to any applicable warranty, you may notify Apple and Apple will refund the purchase price (if any); to the maximum extent permitted by law, Apple has no other warranty obligation. Apple is not responsible for any claims relating to the App, including product liability claims, consumer protection claims, or intellectual property infringement claims. Apple and its subsidiaries are third-party beneficiaries of these Terms and, upon your acceptance, will have the right to enforce these Terms against you as a third-party beneficiary.</p>
+
+    <p><strong>Google Play Store.</strong> If you downloaded the App from Google Play, the Google Play Terms of Service also apply. In the event of a conflict between these Terms and the Google Play Terms, the Google Play Terms take precedence for matters related to distribution.</p>
+
+    <h2>12. Governing Law</h2>
+    <p>These Terms are governed by the laws of the Republic of Serbia. Any disputes arising from these Terms will be resolved by the competent courts in Serbia, unless mandatory consumer protection laws in your jurisdiction provide otherwise.</p>
+
+    <h2>13. Changes to These Terms</h2>
+    <p>We may update these Terms from time to time. Changes will be posted on this page with an updated "Last updated" date. If we make material changes, we will notify you through the App before the changes take effect and give you the opportunity to review the new Terms. If you do not agree to the revised Terms, you should stop using the App.</p>
+
+    <h2>14. Severability</h2>
+    <p>If any provision of these Terms is found to be unenforceable or invalid by a court of competent jurisdiction, that provision will be limited or removed to the minimum extent necessary, and the remaining provisions will remain in full force and effect.</p>
+
+    <h2>15. Entire Agreement</h2>
+    <p>These Terms, together with our <a href="privacy-policy.html">Privacy Policy</a>, constitute the entire agreement between you and Marko Obenic regarding the App, and supersede any prior agreements or understandings.</p>
+
+    <h2>16. Contact</h2>
+    <p>If you have questions about these Terms, contact:</p>
+    <p>
+      Marko Obenic<br>
+      Serbia<br>
+      Email: <a href="mailto:obrenicmarko3@gmail.com">obrenicmarko3@gmail.com</a>
+    </p>
+
+    <div class="footer">
+      <p>&copy; 2026 Lova Flow. All rights reserved. | <a href="privacy-policy.html">Privacy Policy</a></p>
+    </div>
+  </div>
+</body>
+</html>
